@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    #keywordInput {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    #keywordList {
+      margin-top: 10px;
+    }
+    .keyword-item {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h3>X Reply Filter</h3>
+  <input type="text" id="keywordInput" placeholder="Enter keyword to filter">
+  <button id="addKeyword">Add Keyword</button>
+  <div id="keywordList"></div>
+  <script src="dist/popup.js"></script>
+</body>
+</html> 

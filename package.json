@@ -1,0 +1,17 @@
+{
+  "name": "x-blocker",
+  "version": "1.0.0",
+  "main": "content.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/chrome": "^0.0.309",
+    "typescript": "^5.8.2"
+  }
+}
