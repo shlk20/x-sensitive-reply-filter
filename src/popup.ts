@@ -49,7 +49,8 @@ function addKeywordToList(keyword: string): void {
   span.textContent = keyword;
   
   const deleteButton = document.createElement('button');
-  deleteButton.textContent = 'Delete';
+  deleteButton.innerHTML = '&times;';
+  deleteButton.className = 'delete-icon';
   deleteButton.onclick = function() {
     chrome.storage.sync.get(['filterKeywords'], (result: KeywordStorage) => {
       const keywords = result.filterKeywords || [];
