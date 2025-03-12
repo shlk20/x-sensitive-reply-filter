@@ -13,9 +13,7 @@ A Chrome extension that helps you hide unwanted replies on X (Twitter) based on 
 ## Installation
 
 ### From Chrome Web Store
-1. Visit the [X Sensitive Reply Filter](your-store-link-here) page on Chrome Web Store
-2. Click "Add to Chrome"
-3. Click "Add Extension" in the popup
+1. Preparing
 
 ### From Source (Developer Mode)
 1. Clone this repository or download the ZIP file
@@ -24,7 +22,6 @@ git clone https://github.com/shlk20/x-sensitive-reply-filter.git
 ```
 2. Install dependencies and build
 ```
-bash
 npm install
 npm run build
 ```
